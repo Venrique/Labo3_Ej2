@@ -1,0 +1,58 @@
+body{
+    margin: 0 20%;
+    background-color: gainsboro;
+}
+
+table{
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+td{
+    width: 90px;
+    height: 90px;
+    text-align: center;
+}
+
+td:hover div{
+    background-color: rgba(255, 0, 0, 0.5);
+    visibility: visible
+}
+
+td div{
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    padding-top: 40%;
+}
+
+table tr:nth-of-type(odd) td:nth-last-of-type(odd){
+    background-color: black;
+    color: white;
+}
+
+table tr:nth-of-type(even) td:nth-last-of-type(even){
+    background-color: black;
+    color: white;
+}
+
+h1{
+    border: 5px solid goldenrod;
+    color: rgb(61, 61, 61);
+    border-top: 0;
+    border-bottom: 0;
+    font-size: 2.2em;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Lobster', cursive;
+    background-color: rgb(179, 174, 174);
+    padding: 0.75em 0;
+    border-radius: 5px;
+}
+
+.creditos{
+    display: inline-block;
+    color: rgb(61, 61, 61);
+    font-weight: bold;
+    padding: 5%;
+}
